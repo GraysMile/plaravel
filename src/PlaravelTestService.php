@@ -1,6 +1,6 @@
 <?php
 
-namespace Chenyabin;
+namespace Chenyabin\Plaravel;
 
 class PlaravelTestService
 {

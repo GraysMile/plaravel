@@ -1,6 +1,6 @@
 <?php
 
-namespace Chenyabin;
+namespace Chenyabin\Plaravel;
 
 use Illuminate\Support\ServiceProvider;
 

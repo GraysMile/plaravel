@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInite84a58cdef4393a7883215f67d34469a
+class ComposerStaticInit689dd675c07093f1a00c2efb3fa092a3
 {
     public static $prefixLengthsPsr4 = array (
-        'P' => 
+        'C' => 
         array (
-            'Plaravel\\' => 9,
+            'Chenyabin\\Plaravel\\' => 19,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Plaravel\\' => 
+        'Chenyabin\\Plaravel\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -27,9 +27,9 @@ class ComposerStaticInite84a58cdef4393a7883215f67d34469a
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInite84a58cdef4393a7883215f67d34469a::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInite84a58cdef4393a7883215f67d34469a::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInite84a58cdef4393a7883215f67d34469a::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit689dd675c07093f1a00c2efb3fa092a3::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit689dd675c07093f1a00c2efb3fa092a3::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit689dd675c07093f1a00c2efb3fa092a3::$classMap;
 
         }, null, ClassLoader::class);
     }

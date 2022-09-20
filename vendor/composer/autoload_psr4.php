@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Plaravel\\' => array($baseDir . '/src'),
+    'Chenyabin\\Plaravel\\' => array($baseDir . '/src'),
 );

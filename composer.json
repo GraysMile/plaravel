@@ -2,7 +2,7 @@
     "name": "chenyabin/plaravel",
     "autoload": {
         "psr-4": {
-            "Plaravel\\": "src/"
+            "Chenyabin\\Plaravel\\": "src/"
         }
     },
     "authors": [
