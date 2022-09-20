@@ -1,6 +1,6 @@
 <?php
 
-namespace Gray;
+namespace Chenyabin;
 
 use Illuminate\Support\ServiceProvider;
 
