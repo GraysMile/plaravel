@@ -1,0 +1,15 @@
+{
+    "name": "chenyabin/plaravel",
+    "autoload": {
+        "psr-4": {
+            "Chenyabin\\Plaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "GraysMile",
+            "email": "chenyab2@gmail.com"
+        }
+    ],
+    "require": {}
+}
